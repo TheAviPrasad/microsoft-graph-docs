@@ -50,21 +50,20 @@ In the request body, supply a JSON representation of the [educationClass](../res
 
 The following table shows the properties that are required when you create the [educationClass](../resources/educationclass.md).
 
-| Property             | Type                                               | Description                                                        |
-| :------------------- | :------------------------------------------------- | :----------------------------------------------------------------- |
-| id                   | String                                             | Object identifier. Inherited from [entity](../resources/entity.md) |
-| displayName          | String                                             | Name of the class.                                                 |
-| mailNickname         | String                                             | Mail name for sending email to all members, if this is enabled.    |
-| description          | String                                             | Description of the class.                                          |
-| createdBy            | [identitySet](../resources/identityset.md)         | Entity who created the class                                       |
-| classCode            | String                                             | Class code used by the school to identify the class.               |
-| externalName         | String                                             | Name of the class in the syncing system.                           |
-| externalId           | String                                             | ID of the class from the syncing system.                           |
-| externalSource       | educationExternalSource                            | How this class was created. Possible values are: `sis`, `manual`   |
-| externalSourceDetail | String                                             | The name of the external source this resources was generated from. |
-| grade                | String                                             | Grade level of the class.                                          |
-| term                 | [educationTerm](../resources/educationterm.md)     | Term for this class.                                               |
-| course               | [educationCourse](../resources/educationcourse.md) | Course information for the class                                   |
+| Property             | Type                                           | Description                                                        |
+| :------------------- | :--------------------------------------------- | :----------------------------------------------------------------- |
+| id                   | String                                         | Object identifier. Inherited from [entity](../resources/entity.md) |
+| displayName          | String                                         | Name of the class.                                                 |
+| mailNickname         | String                                         | Mail name for sending email to all members, if this is enabled.    |
+| description          | String                                         | Description of the class.                                          |
+| createdBy            | [identitySet](../resources/identityset.md)     | Entity who created the class                                       |
+| classCode            | String                                         | Class code used by the school to identify the class.               |
+| externalName         | String                                         | Name of the class in the syncing system.                           |
+| externalId           | String                                         | ID of the class from the syncing system.                           |
+| externalSource       | educationExternalSource                        | How this class was created. Possible values are: `sis`, `manual`   |
+| externalSourceDetail | String                                         | The name of the external source this resources was generated from. |
+| grade                | String                                         | Grade level of the class.                                          |
+| term                 | [educationTerm](../resources/educationterm.md) | Term for this class.                                               |
 
 ## Response
 
@@ -101,9 +100,6 @@ Content-length: 533
   "grade": "String",
   "term": {
     "@odata.type": "microsoft.graph.educationTerm"
-  },
-  "course": {
-    "@odata.type": "microsoft.graph.educationCourse"
   }
 }
 ```
@@ -140,9 +136,6 @@ Content-Type: application/json
   "grade": "String",
   "term": {
     "@odata.type": "microsoft.graph.educationTerm"
-  },
-  "course": {
-    "@odata.type": "microsoft.graph.educationCourse"
   }
 }
 ```

@@ -19,14 +19,6 @@
           "Target": "educationUser"
         },
         {
-          "Id": "b9897a64-7105-11eb-a2f0-283fcfb406cf",
-          "ApiChange": "Property",
-          "ChangedApiName": "course",
-          "ChangeType": "Addition",
-          "Description": "Added the **course** property to [educationUser](https://docs.microsoft.com/en-us/graph/api/resources/educationUser?view=graph-rest-1.0) resource.",
-          "Target": "educationUser"
-        },
-        {
           "Id": "b993120c-7105-11eb-a2f0-283fcfb406cf",
           "ApiChange": "Property",
           "ChangedApiName": "externalSourceDetail",
@@ -41,14 +33,6 @@
           "ChangeType": "Addition",
           "Description": "Added the [educationTerm](https://docs.microsoft.com/en-us/graph/api/resources/educationTerm?view=graph-rest-1.0) resource type.",
           "Target": "educationTerm"
-        },
-        {
-          "Id": "b997d37d-7105-11eb-a2f0-283fcfb406cf",
-          "ApiChange": "Resource",
-          "ChangedApiName": "educationCourse",
-          "ChangeType": "Addition",
-          "Description": "Added the [educationCourse](https://docs.microsoft.com/en-us/graph/api/resources/educationCourse?view=graph-rest-1.0) resource type.",
-          "Target": "educationCourse"
         },
         {
           "Id": "b99a43de-7105-11eb-a2f0-283fcfb406cf",

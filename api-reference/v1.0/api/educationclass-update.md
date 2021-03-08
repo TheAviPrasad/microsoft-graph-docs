@@ -59,7 +59,6 @@ The following table shows the properties that are required when you update the [
 | externalSourceDetail | String                                             | The name of the external source this resources was generated from. |
 | grade                | String                                             | Grade level of the class.                                          |
 | term                 | [educationTerm](../resources/educationterm.md)     | Term for this class.                                               |
-| course               | [educationCourse](../resources/educationcourse.md) | Course information for the class                                   |
 
 ## Response
 
@@ -96,9 +95,6 @@ Content-length: 533
   "grade": "String",
   "term": {
     "@odata.type": "microsoft.graph.educationTerm"
-  },
-  "course": {
-    "@odata.type": "microsoft.graph.educationCourse"
   }
 }
 ```
@@ -135,9 +131,6 @@ Content-Type: application/json
   "grade": "String",
   "term": {
     "@odata.type": "microsoft.graph.educationTerm"
-  },
-  "course": {
-    "@odata.type": "microsoft.graph.educationCourse"
   }
 }
 ```

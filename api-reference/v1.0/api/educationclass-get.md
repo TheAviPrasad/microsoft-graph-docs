@@ -99,9 +99,6 @@ Content-Type: application/json
     "grade": "String",
     "term": {
       "@odata.type": "microsoft.graph.educationTerm"
-    },
-    "course": {
-      "@odata.type": "microsoft.graph.educationCourse"
     }
   }
 }
