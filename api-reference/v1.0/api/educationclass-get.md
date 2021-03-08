@@ -36,7 +36,7 @@ GET /education/classes/{educationClassId}
 
 ## Optional query parameters
 
-This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+This method supports the same OData query parameters as [Get Group](../api/group-get.md#optional-query-parameters). For general information, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
 
@@ -63,7 +63,7 @@ If successful, this method returns a `200 OK` response code and an [educationCla
 -->
 
 ```http
-GET https://graph.microsoft.com/v1.0/education/classes/{educationClassId}
+GET /education/classes/{educationClassId}
 ```
 
 ### Response

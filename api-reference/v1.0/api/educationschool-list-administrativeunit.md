@@ -31,7 +31,7 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 
 ```http
-GET /education/classes/{educationClassId}/members/{educationUserId}/schools/{educationSchoolId}/administrativeUnit
+GET /education/schools/{educationSchoolId}/administrativeUnit
 ```
 
 ## Optional query parameters

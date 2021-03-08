@@ -36,7 +36,7 @@ GET /education/schools/{educationSchoolId}
 
 ## Optional query parameters
 
-This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+This method supports the same OData query parameters as [Get User](../api/user-get.md#optional-query-parameters). For general information, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
 

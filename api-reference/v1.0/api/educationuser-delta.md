@@ -78,6 +78,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 
 {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(educationUser)",
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/education/users/delta?$skiptoken=VwhMSQw1l1O5v2F1ZPm...",
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationUser",

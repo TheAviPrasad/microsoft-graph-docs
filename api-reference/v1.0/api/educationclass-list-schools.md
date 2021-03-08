@@ -27,7 +27,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /education/classes/{id}/schools
+GET /education/classes/{educationClassId}/schools
 ```
 
 ## Optional query parameters
