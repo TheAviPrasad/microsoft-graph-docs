@@ -11,7 +11,7 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Get the educationClass resources from the taughtClasses navigation property.
+Get the [educationClass](../resources/educationclass.md) resources owned by an [educationUser](../resources/educationuser.md).
 
 ## Permissions
 
@@ -22,6 +22,9 @@ One of the following permissions is required to call this API. To learn more, in
 | Delegated (work or school account)     | EduRoster.ReadBasic                         |
 | Delegated (personal Microsoft account) | Not supported                               |
 | Application                            | EduRoster.Read.All, EduRoster.ReadWrite.All |
+
+> [!NOTE]
+> Note that if the delegated token is used, users can only see information about their own classes.
 
 ## HTTP request
 
@@ -37,7 +40,19 @@ GET /education/users/{educationUserId}/taughtClasses
 
 ## Optional query parameters
 
-This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+You can use the OData query option `$orderby` to sort groups in an organization by the **displayName** values, as shown in the following example:
+
+<!-- { "blockType": "ignored" } -->
+
+```http
+GET https://graph.microsoft.com/v1.0/groups?$orderby=displayName
+```
+
+You can also use the `$filter`, `$count` and `$search` query parameters to limit the response.
+
+When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
+
+For more information on OData query options, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
 

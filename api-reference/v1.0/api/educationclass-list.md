@@ -36,7 +36,19 @@ GET /education/classes
 
 ## Optional query parameters
 
-This method supports the same OData query parameters as [List Groups](../api/group-list.md#optional-query-parameters). For general information, see [OData query parameters](/graph/query-parameters).
+You can use the OData query option `$orderby` to sort groups in an organization by the **displayName** values, as shown in the following example:
+
+<!-- { "blockType": "ignored" } -->
+
+```http
+GET https://graph.microsoft.com/v1.0/groups?$orderby=displayName
+```
+
+You can also use the `$filter`, `$count` and `$search` query parameters to limit the response. 
+
+When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
+
+For more information on OData query options, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
 

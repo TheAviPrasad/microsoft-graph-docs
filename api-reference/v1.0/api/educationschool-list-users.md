@@ -11,7 +11,7 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Retrieve a list of users at a school.
+Get the [educationUser](../resources/educationuser.md) resources associated with an [educationSchool](../resources/educationschool.md).
 
 ## Permissions
 
@@ -33,7 +33,11 @@ GET /education/schools/{educationSchoolId}/users
 
 ## Optional query parameters
 
-This method supports the [OData Query Parameters](/graph/query-parameters) to help customize the response.
+This method supports the [OData query parameters](/graph/query-parameters) to help customize the response, including `$search`, `$count`, and `$filter`.
+
+When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
+
+For more information on OData query options, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
 
