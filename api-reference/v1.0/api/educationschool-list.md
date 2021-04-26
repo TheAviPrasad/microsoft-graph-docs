@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# List Schools
+# List educationSchools
 
 Namespace: microsoft.graph
 
@@ -68,7 +68,7 @@ GET https://graph.microsoft.com/v1.0/education/schools
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

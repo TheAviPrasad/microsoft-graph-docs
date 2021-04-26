@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Create a new School
+# Create educationSchool
 
 Namespace: microsoft.graph
 
@@ -110,7 +110,7 @@ Content-length: 583
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

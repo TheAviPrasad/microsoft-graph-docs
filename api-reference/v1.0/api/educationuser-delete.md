@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Delete an Edu User
+# Delete educationScheducationUserool
 
 Namespace: microsoft.graph
 
@@ -65,7 +65,7 @@ DELETE https://graph.microsoft.com/v1.0/education/me
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

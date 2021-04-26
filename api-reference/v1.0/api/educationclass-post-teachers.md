@@ -1,13 +1,13 @@
 ---
-title: "Add teacher"
-description: "Add a teacher to a class."
+title: "Add teacher to educationClass"
+description: "Add teacher to a class."
 author: "mmast-msft"
 localization_priority: Normal
 ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Add teacher
+# Add teacher to educationClass
 
 Namespace: microsoft.graph
 

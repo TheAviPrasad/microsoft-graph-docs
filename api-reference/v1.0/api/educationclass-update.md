@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Update a Class
+# Update educationClass
 
 Namespace: microsoft.graph
 
@@ -101,7 +101,7 @@ Content-length: 533
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

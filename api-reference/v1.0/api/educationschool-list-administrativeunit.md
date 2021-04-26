@@ -1,18 +1,17 @@
 ---
-title: "List administrativeUnit"
-description: "Get the administrativeUnit resources from the administrativeUnit navigation property."
+title: "List administrativeUnit an educationSchool"
+description: "Get a list of administrativeUnits associated with an educationSchool object."
 author: "mmast"
 localization_priority: Normal
 ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# List administrativeUnit
+# List administrativeUnit an educationSchool
 
 Namespace: microsoft.graph
 
-Get the administrativeUnit resources from the administrativeUnit navigation property.
-
+Get a list of **administrativeUnits** associated with an [educationSchool](../resources/educationschool.md) object.
 ## Permissions
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
@@ -68,7 +67,7 @@ GET https://graph.microsoft.com/v1.0/education/classes/{educationClassId}/member
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

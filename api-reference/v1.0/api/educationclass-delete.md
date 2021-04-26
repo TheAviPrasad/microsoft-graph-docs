@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Delete a Class
+# Delete educationClass
 
 Namespace: microsoft.graph
 
@@ -67,7 +67,7 @@ DELETE https://graph.microsoft.com/v1.0/education/classes/{educationClassId}
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

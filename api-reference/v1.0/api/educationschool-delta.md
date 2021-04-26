@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Schools Delta Query
+# educationSchool: delta
 
 Namespace: microsoft.graph
 
@@ -69,7 +69,7 @@ GET https://graph.microsoft.com/v1.0/education/schools/delta
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

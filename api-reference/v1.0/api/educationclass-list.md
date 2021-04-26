@@ -1,5 +1,5 @@
 ---
-title: "List classes"
+title: "List classeses"
 description: "Get a list of the educationClass objects and their properties."
 author: "mlafleur"
 localization_priority: Normal
@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# List Classes
+# List educationClasses
 
 Namespace: microsoft.graph
 
@@ -68,7 +68,7 @@ GET https://graph.microsoft.com/v1.0/education/classes
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

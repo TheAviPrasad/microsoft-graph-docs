@@ -1,5 +1,5 @@
 ---
-title: "List class members"
+title: "List members of an educationClass"
 description: "Retrieves the teachers and students for a class. Note that if the delegated token is used, members can only be seen by other members of the class."
 localization_priority: Normal
 author: "mmast-msft"
@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# List members of a Class
+# List members of an educationClass
 
 Namespace: microsoft.graph
 

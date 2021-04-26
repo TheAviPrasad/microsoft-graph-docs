@@ -7,11 +7,11 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Delete a School
+# Delete educationSchool
 
 Namespace: microsoft.graph
 
-Deletes an [educationSchool](../resources/educationschool.md) object.
+Delete an [educationSchool](../resources/educationschool.md) object.
 
 ## Permissions
 
@@ -64,7 +64,7 @@ DELETE https://graph.microsoft.com/v1.0/education/schools/{educationSchoolId}
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+>**Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",

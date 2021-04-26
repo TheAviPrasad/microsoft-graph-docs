@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Add a User to a School
+# Add educationUser to an educationSchool
 
 Namespace: microsoft.graph
 

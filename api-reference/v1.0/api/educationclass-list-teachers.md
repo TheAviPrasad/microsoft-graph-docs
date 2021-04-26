@@ -1,5 +1,5 @@
 ---
-title: "List teachers of class"
+title: "List teachers of an educationClass"
 description: "Retrieve a list teachers for a class. Delegated tokens must be members of the class to get the teacher list."
 author: "mmast-msft"
 localization_priority: Normal
@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# List teachers of a Class
+# List teachers of an educationClass
 
 Namespace: microsoft.graph
 

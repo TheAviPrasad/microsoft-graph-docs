@@ -1,5 +1,5 @@
 ---
-title: "Add a student"
+title: "Add member to educationClass"
 description: "Add a member to a class."
 author: "mmast-msft"
 localization_priority: Normal
@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Add a student
+# Add member to educationClass
 
 Namespace: microsoft.graph
 

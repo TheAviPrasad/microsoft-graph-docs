@@ -1,5 +1,5 @@
 ---
-title: "List schools"
+title: "List schools of an educationUser"
 description: "Retrieve a list of schools for a user."
 author: "mmast-msft"
 localization_priority: Normal
@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# List schools
+# List schools of an educationUser
 
 Namespace: microsoft.graph
 

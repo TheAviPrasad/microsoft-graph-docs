@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Get a Class
+# Get educationClass
 
 Namespace: microsoft.graph
 
@@ -68,7 +68,7 @@ GET /education/classes/{educationClassId}
 
 ### Response
 
-**Note:** The response object shown here might be shortened for readability.
+> **Note:** The response object shown here might be shortened for readability.
 
 <!-- {
   "blockType": "response",
